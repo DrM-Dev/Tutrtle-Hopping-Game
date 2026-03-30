@@ -90,7 +90,6 @@ def level_setup():
         increase_difficulty()
     # _____________________#_____________________#_____________________#
 
-
 def game_over():
     global cars_WAVE
     global game_is_on
@@ -148,7 +147,6 @@ while game_is_on:
             # ++++++++
             game_over()
 
-
     #______________________________________winning_condition
     if the_turtle.ycor() >= FINISH_LINE_Y:
         the_level_counter.current_level += 1
@@ -157,7 +155,6 @@ while game_is_on:
         game_is_on = False
         #RESTART:
         level_setup()
-
 
 #=================================================Keeping The Game On:
 screen.mainloop()
