@@ -12,10 +12,10 @@ from scoreboard import Scoreboard
 #--------------------------------#
 TRAFFIC_STATE = 0
 CARS = []
-#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@important:
+#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@important:
 GENERAL_SPEED = 10
 car_manager.MOVE_INCREMENT = GENERAL_SPEED
-#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 #=================================================SCREEN SETUP:
 screen = Screen()
